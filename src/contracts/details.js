@@ -1,4 +1,4 @@
-const privateKey = "fca9e96d3964e6a41485ef34a43555ca675cb3aeb4f6c89ffe2cabe69cc3c5ff";
+const privateKey = "3a34b39134446cdf84057e379a75f26195e9349359bf7572cebd41b35365975f";
 
 module.exports = {
     privateKey
