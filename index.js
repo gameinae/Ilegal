@@ -2254,7 +2254,7 @@ app.post("/validateDocument", async(req, res) => {
             docOwnerAddress,
             docType,
             docURI,
-            docParams
+            docParams, { gas: 500000 } // set a manual gas limit of 500000
         );
         console.log("Transaction", txn);
         res.status(200).json({
