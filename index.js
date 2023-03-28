@@ -2554,6 +2554,6 @@ app.post("/giveRewardsToUsers", async(req, res) => {
     }
 });
 
-// app.listen(port, () => {
-//   console.log("Express server listening on port %d in %s mode");
-// });
+app.listen(port, () => {
+    console.log("Express server listening on port %d in %s mode");
+});
